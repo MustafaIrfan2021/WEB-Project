@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">MySite</a>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h1>Welcome to MySite</h1>
+            <p>Your journey to a stunning website starts here.</p>
+        </div>
+        <div class="hero-image parallax" data-speed="0.15">
+            <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Hero Image">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h1 class="reveal">Our Services</h1>
+        <div class="service-container">
+            <div class="service-card reveal">
+                <h2>Web Design</h2>
+                <p>Beautiful and responsive designs that capture your brand's essence and engage your audience effectively.</p>
+            </div>
+            <div class="service-card reveal">
+                <h2>Development</h2>
+                <p>Fast and scalable solutions built with the latest technologies to ensure optimal performance.</p>
+            </div>
+            <div class="service-card reveal">
+                <h2>SEO Optimization</h2>
+                <p>Improve your website's visibility in search engines and drive organic traffic to your business.</p>
+            </div>
+            <div class="service-card reveal">
+                <h2>Mobile Apps</h2>
+                <p>Cross-platform mobile applications that provide seamless experiences on all devices.</p>
+            </div>
+            <div class="service-card reveal">
+                <h2>UI/UX Design</h2>
+                <p>Intuitive user interfaces and engaging user experiences that keep visitors coming back.</p>
+            </div>
+            <div class="service-card reveal">
+                <h2>E-commerce</h2>
+                <p>Custom online stores with secure payment gateways and inventory management systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h1 class="reveal">About Us</h1>
+        <div class="about-content">
+            <div class="about-box reveal">
+                <p>We are a passionate team of developers and designers committed to creating exceptional digital experiences.</p>
+            </div>
+            <div class="about-box reveal">
+                <p>With years of experience in creating modern and user-friendly websites, we deliver solutions that drive results.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h1 class="reveal">Contact Us</h1>
+        <form class="reveal">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Your message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>MySite</h3>
+                <p>Creating stunning digital experiences that drive results for businesses worldwide.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">&#8226;</a>
+                    <a href="#" class="social-icon">&#8226;</a>
+                    <a href="#" class="social-icon">&#8226;</a>
+                    <a href="#" class="social-icon">&#8226;</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>Email: info@mysite.com</p>
+                <p>Phone: +1 (123) 456-7890</p>
+                <p>Address: 123 Web Street, Internet City</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 MySite. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
